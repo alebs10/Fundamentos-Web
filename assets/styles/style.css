@@ -1,25 +1,45 @@
    /* ID = O atributo Id especifica uma identificação única para o elemento HTML. Por questões de boas práticas, não deve ser reutilizado e nem conter espaços em seu nome, pois o navegador irá identificar o espaço como parte dele, já que os elementos não podem ter mais de um Id.
-         Class = O atributo global class especifica uma ou mais classes para o elemento HTML. Esse atributo pode ser reutilizado, ajudando a pessoa desenvolvedora a não repetir códigos */
+   Class = O atributo global class especifica uma ou mais classes para o elemento HTML. Esse atributo pode ser reutilizado, ajudando a pessoa desenvolvedora a não repetir códigos */
+   /* Estilos da página Index */
    
-   #p-first {
-       color: aqua;
-       text-align: justify;
-       font-size: 20px;
-   }
-   
-   .font-bold {
-       font-weight: bold;
+   .center {
+       text-align: center;
    }
    
    .container {
        display: flex;
-       justify-content: right;
+       flex-flow: row;
+       justify-content: center;
        align-items: center;
    }
    
-   .img-box {
-       margin: 5px;
-       padding: 20px;
-       border: 5px solid red;
-       background-color: black;
+   #menu li {
+       display: inline;
+       padding: 15px;
    }
+   
+   #menu li a {
+       text-decoration: none;
+       color: black;
+       font-size: 20px;
+   }
+   
+   #menu li a:hover {
+       color: gray;
+   }
+   
+   .p-30 {
+       padding: 30px;
+   }
+   
+   .br-50 {
+       border-radius: 50%;
+   }
+   
+   .wh-350 {
+       width: 350px;
+       height: 350px;
+   }
+   /* Estilo da página Meme */
+   /* Estilo da página Contato */
+    /* Estilo da página Efeito vidro */
